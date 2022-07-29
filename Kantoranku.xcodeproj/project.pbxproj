@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390E57952892D2010062AEC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390E57942892D2010062AEC0 /* ProfileView.swift */; };
+		390E57982892E15B0062AEC0 /* IzinFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390E57972892E15B0062AEC0 /* IzinFormView.swift */; };
+		390E579A2892E2D20062AEC0 /* IzinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390E57992892E2D20062AEC0 /* IzinViewModel.swift */; };
+		390E579C2892E32F0062AEC0 /* IzinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390E579B2892E32F0062AEC0 /* IzinModel.swift */; };
+		396D40B0288DE42B00E19936 /* KantorankuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40AF288DE42B00E19936 /* KantorankuApp.swift */; };
+		396D40B2288DE42B00E19936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40B1288DE42B00E19936 /* ContentView.swift */; };
+		396D40B4288DE42D00E19936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396D40B3288DE42D00E19936 /* Assets.xcassets */; };
+		396D40B7288DE42D00E19936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396D40B6288DE42D00E19936 /* Preview Assets.xcassets */; };
+		396D40C3288DEC8E00E19936 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40C2288DEC8E00E19936 /* Credentials.swift */; };
+		396D40C6288DEDD900E19936 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40C5288DEDD900E19936 /* APIService.swift */; };
+		396D40C8288DEE7500E19936 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40C7288DEE7500E19936 /* Authentication.swift */; };
+		396D40CC288DF03000E19936 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40CB288DF03000E19936 /* LoginView.swift */; };
+		396D40CE288DF04D00E19936 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40CD288DF04D00E19936 /* LoginViewModel.swift */; };
+		396D40D0288DF5E000E19936 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 396D40CF288DF5E000E19936 /* Fonts */; };
+		396D40D4288E429600E19936 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40D3288E429600E19936 /* GradientView.swift */; };
+		396D40D7288E792B00E19936 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40D6288E792B00E19936 /* UserModel.swift */; };
+		396D40DA288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 396D40D8288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodeld */; };
+		396D40DD288FAC7300E19936 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40DC288FAC7300E19936 /* HomeView.swift */; };
+		396D40DF288FC00B00E19936 /* APIFetchMethodGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D40DE288FC00B00E19936 /* APIFetchMethodGet.swift */; };
+		396D4101289027F700E19936 /* AttendanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D4100289027F700E19936 /* AttendanceCardView.swift */; };
+		396D410528902A8B00E19936 /* RoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D410428902A8B00E19936 /* RoundedCornersShape.swift */; };
+		396D41072890D5E700E19936 /* AttendanceCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D41062890D5E700E19936 /* AttendanceCardViewModel.swift */; };
+		396D41092890DC3500E19936 /* AttendanceErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D41082890DC3500E19936 /* AttendanceErrorHandler.swift */; };
+		396D410C2890F9D900E19936 /* AttendanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D410B2890F9D900E19936 /* AttendanceModel.swift */; };
+		396D410F289229D400E19936 /* FeatureButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D410E289229D400E19936 /* FeatureButtons.swift */; };
+		396D411228922D9300E19936 /* HomeSubmissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D411128922D9300E19936 /* HomeSubmissionView.swift */; };
+		396D41152892352400E19936 /* PengajuanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D41142892352400E19936 /* PengajuanView.swift */; };
+		396D41182892484C00E19936 /* PengajuanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D41172892484C00E19936 /* PengajuanController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		390E57942892D2010062AEC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		390E57972892E15B0062AEC0 /* IzinFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzinFormView.swift; sourceTree = "<group>"; };
+		390E57992892E2D20062AEC0 /* IzinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzinViewModel.swift; sourceTree = "<group>"; };
+		390E579B2892E32F0062AEC0 /* IzinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzinModel.swift; sourceTree = "<group>"; };
+		396D40AC288DE42B00E19936 /* Kantoranku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kantoranku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D40AF288DE42B00E19936 /* KantorankuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantorankuApp.swift; sourceTree = "<group>"; };
+		396D40B1288DE42B00E19936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		396D40B3288DE42D00E19936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396D40B6288DE42D00E19936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		396D40C2288DEC8E00E19936 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		396D40C5288DEDD900E19936 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		396D40C7288DEE7500E19936 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		396D40CB288DF03000E19936 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		396D40CD288DF04D00E19936 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		396D40CF288DF5E000E19936 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		396D40D1288DFEE800E19936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		396D40D3288E429600E19936 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		396D40D6288E792B00E19936 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		396D40D9288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KantorankuCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		396D40DC288FAC7300E19936 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		396D40DE288FC00B00E19936 /* APIFetchMethodGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchMethodGet.swift; sourceTree = "<group>"; };
+		396D4100289027F700E19936 /* AttendanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceCardView.swift; sourceTree = "<group>"; };
+		396D410428902A8B00E19936 /* RoundedCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersShape.swift; sourceTree = "<group>"; };
+		396D41062890D5E700E19936 /* AttendanceCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceCardViewModel.swift; sourceTree = "<group>"; };
+		396D41082890DC3500E19936 /* AttendanceErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceErrorHandler.swift; sourceTree = "<group>"; };
+		396D410B2890F9D900E19936 /* AttendanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceModel.swift; sourceTree = "<group>"; };
+		396D410E289229D400E19936 /* FeatureButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureButtons.swift; sourceTree = "<group>"; };
+		396D411128922D9300E19936 /* HomeSubmissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSubmissionView.swift; sourceTree = "<group>"; };
+		396D41142892352400E19936 /* PengajuanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PengajuanView.swift; sourceTree = "<group>"; };
+		396D41172892484C00E19936 /* PengajuanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PengajuanController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396D40A9288DE42B00E19936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390E57932892D1EA0062AEC0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				390E57942892D2010062AEC0 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		390E57962892E1380062AEC0 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				390E57972892E15B0062AEC0 /* IzinFormView.swift */,
+				390E57992892E2D20062AEC0 /* IzinViewModel.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		396D40A3288DE42B00E19936 = {
+			isa = PBXGroup;
+			children = (
+				396D40AE288DE42B00E19936 /* Kantoranku */,
+				396D40AD288DE42B00E19936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396D40AD288DE42B00E19936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396D40AC288DE42B00E19936 /* Kantoranku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396D40AE288DE42B00E19936 /* Kantoranku */ = {
+			isa = PBXGroup;
+			children = (
+				396D40D8288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodeld */,
+				396D40D1288DFEE800E19936 /* Info.plist */,
+				396D41162892482700E19936 /* Data */,
+				396D40C0288DEC1300E19936 /* Helper */,
+				396D40BF288DEB4600E19936 /* Common Model */,
+				396D40BE288DEB3000E19936 /* Features */,
+				396D40BD288DEB2000E19936 /* Utilities */,
+				396D40AF288DE42B00E19936 /* KantorankuApp.swift */,
+				396D40CF288DF5E000E19936 /* Fonts */,
+				396D40B3288DE42D00E19936 /* Assets.xcassets */,
+				396D40B5288DE42D00E19936 /* Preview Content */,
+			);
+			path = Kantoranku;
+			sourceTree = "<group>";
+		};
+		396D40B5288DE42D00E19936 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				396D40B6288DE42D00E19936 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		396D40BD288DEB2000E19936 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				396D40C4288DEDB600E19936 /* Networking */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		396D40BE288DEB3000E19936 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				390E57932892D1EA0062AEC0 /* Profile */,
+				396D4113289234EE00E19936 /* Pengajuan */,
+				396D40DB288FAC2D00E19936 /* Home */,
+				396D40C9288DEFC200E19936 /* Login */,
+				396D40B1288DE42B00E19936 /* ContentView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		396D40BF288DEB4600E19936 /* Common Model */ = {
+			isa = PBXGroup;
+			children = (
+				396D410B2890F9D900E19936 /* AttendanceModel.swift */,
+				396D40D6288E792B00E19936 /* UserModel.swift */,
+				396D40C2288DEC8E00E19936 /* Credentials.swift */,
+				390E579B2892E32F0062AEC0 /* IzinModel.swift */,
+			);
+			path = "Common Model";
+			sourceTree = "<group>";
+		};
+		396D40C0288DEC1300E19936 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				396D40C7288DEE7500E19936 /* Authentication.swift */,
+				396D40D3288E429600E19936 /* GradientView.swift */,
+				396D410428902A8B00E19936 /* RoundedCornersShape.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		396D40C4288DEDB600E19936 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				396D40C5288DEDD900E19936 /* APIService.swift */,
+				396D40DE288FC00B00E19936 /* APIFetchMethodGet.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		396D40C9288DEFC200E19936 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				396D40CB288DF03000E19936 /* LoginView.swift */,
+				396D40CD288DF04D00E19936 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		396D40DB288FAC2D00E19936 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				396D411028922D5800E19936 /* HomeSubmissionList */,
+				396D410D2892299A00E19936 /* FeatureButtons */,
+				396D40FF289027DC00E19936 /* Attendance */,
+				396D40DC288FAC7300E19936 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		396D40FF289027DC00E19936 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				396D4100289027F700E19936 /* AttendanceCardView.swift */,
+				396D41062890D5E700E19936 /* AttendanceCardViewModel.swift */,
+				396D41082890DC3500E19936 /* AttendanceErrorHandler.swift */,
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		396D410D2892299A00E19936 /* FeatureButtons */ = {
+			isa = PBXGroup;
+			children = (
+				396D410E289229D400E19936 /* FeatureButtons.swift */,
+			);
+			path = FeatureButtons;
+			sourceTree = "<group>";
+		};
+		396D411028922D5800E19936 /* HomeSubmissionList */ = {
+			isa = PBXGroup;
+			children = (
+				396D411128922D9300E19936 /* HomeSubmissionView.swift */,
+			);
+			path = HomeSubmissionList;
+			sourceTree = "<group>";
+		};
+		396D4113289234EE00E19936 /* Pengajuan */ = {
+			isa = PBXGroup;
+			children = (
+				390E57962892E1380062AEC0 /* Forms */,
+				396D41142892352400E19936 /* PengajuanView.swift */,
+			);
+			path = Pengajuan;
+			sourceTree = "<group>";
+		};
+		396D41162892482700E19936 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				396D41172892484C00E19936 /* PengajuanController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396D40AB288DE42B00E19936 /* Kantoranku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D40BA288DE42D00E19936 /* Build configuration list for PBXNativeTarget "Kantoranku" */;
+			buildPhases = (
+				396D40A8288DE42B00E19936 /* Sources */,
+				396D40A9288DE42B00E19936 /* Frameworks */,
+				396D40AA288DE42B00E19936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kantoranku;
+			productName = Kantoranku;
+			productReference = 396D40AC288DE42B00E19936 /* Kantoranku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396D40A4288DE42B00E19936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					396D40AB288DE42B00E19936 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 396D40A7288DE42B00E19936 /* Build configuration list for PBXProject "Kantoranku" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396D40A3288DE42B00E19936;
+			productRefGroup = 396D40AD288DE42B00E19936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396D40AB288DE42B00E19936 /* Kantoranku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396D40AA288DE42B00E19936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D40D0288DF5E000E19936 /* Fonts in Resources */,
+				396D40B7288DE42D00E19936 /* Preview Assets.xcassets in Resources */,
+				396D40B4288DE42D00E19936 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396D40A8288DE42B00E19936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390E57982892E15B0062AEC0 /* IzinFormView.swift in Sources */,
+				396D40DA288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodeld in Sources */,
+				396D40CC288DF03000E19936 /* LoginView.swift in Sources */,
+				396D41152892352400E19936 /* PengajuanView.swift in Sources */,
+				390E579C2892E32F0062AEC0 /* IzinModel.swift in Sources */,
+				390E579A2892E2D20062AEC0 /* IzinViewModel.swift in Sources */,
+				396D41182892484C00E19936 /* PengajuanController.swift in Sources */,
+				396D40C3288DEC8E00E19936 /* Credentials.swift in Sources */,
+				396D40B2288DE42B00E19936 /* ContentView.swift in Sources */,
+				396D410F289229D400E19936 /* FeatureButtons.swift in Sources */,
+				396D40C6288DEDD900E19936 /* APIService.swift in Sources */,
+				396D40DD288FAC7300E19936 /* HomeView.swift in Sources */,
+				396D410C2890F9D900E19936 /* AttendanceModel.swift in Sources */,
+				396D41092890DC3500E19936 /* AttendanceErrorHandler.swift in Sources */,
+				396D410528902A8B00E19936 /* RoundedCornersShape.swift in Sources */,
+				396D4101289027F700E19936 /* AttendanceCardView.swift in Sources */,
+				396D40C8288DEE7500E19936 /* Authentication.swift in Sources */,
+				396D40B0288DE42B00E19936 /* KantorankuApp.swift in Sources */,
+				396D40D4288E429600E19936 /* GradientView.swift in Sources */,
+				396D411228922D9300E19936 /* HomeSubmissionView.swift in Sources */,
+				396D40D7288E792B00E19936 /* UserModel.swift in Sources */,
+				396D40CE288DF04D00E19936 /* LoginViewModel.swift in Sources */,
+				396D40DF288FC00B00E19936 /* APIFetchMethodGet.swift in Sources */,
+				390E57952892D2010062AEC0 /* ProfileView.swift in Sources */,
+				396D41072890D5E700E19936 /* AttendanceCardViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		396D40B8288DE42D00E19936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		396D40B9288DE42D00E19936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396D40BB288DE42D00E19936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kantoranku/Preview Content\"";
+				DEVELOPMENT_TEAM = 38BHTK6978;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kantoranku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.eightki.Kantoranku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		396D40BC288DE42D00E19936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kantoranku/Preview Content\"";
+				DEVELOPMENT_TEAM = 38BHTK6978;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kantoranku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.eightki.Kantoranku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396D40A7288DE42B00E19936 /* Build configuration list for PBXProject "Kantoranku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D40B8288DE42D00E19936 /* Debug */,
+				396D40B9288DE42D00E19936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D40BA288DE42D00E19936 /* Build configuration list for PBXNativeTarget "Kantoranku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D40BB288DE42D00E19936 /* Debug */,
+				396D40BC288DE42D00E19936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		396D40D8288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				396D40D9288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 396D40D9288F8CA000E19936 /* KantorankuCoreDataModel.xcdatamodel */;
+			path = KantorankuCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 396D40A4288DE42B00E19936 /* Project object */;
+}

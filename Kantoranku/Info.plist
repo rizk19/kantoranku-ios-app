@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Black</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Black</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string></string>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+		<key>UINewsstandIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UINewsstandBindingType</key>
+			<string>UINewsstandBindingTypeMagazine</string>
+			<key>UINewsstandBindingEdge</key>
+			<string>UINewsstandBindingEdgeLeft</string>
+		</dict>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/Inter-V.ttf</string>
+		<string>Fonts/Inter-Black</string>
+		<string>Fonts/Inter-BlackItalic.otf</string>
+		<string>Fonts/Inter-Bold.otf</string>
+		<string>Fonts/Inter-BoldItalic.otf</string>
+		<string>Fonts/Inter-ExtraBold.otf</string>
+		<string>Fonts/Inter-ExtraLight.otf</string>
+		<string>Fonts/Inter-ExtraLightItalic.otf</string>
+		<string>Fonts/Inter-Italic.otf</string>
+		<string>Fonts/Inter-Light.otf</string>
+		<string>Fonts/Inter-LightItalic.otf</string>
+		<string>Fonts/Inter-Medium.otf</string>
+		<string>Fonts/Inter-Regular.otf</string>
+		<string>Fonts/Inter-SemiBold.otf</string>
+		<string>Fonts/Inter-Thin.otf</string>
+		<string>Fonts/Inter-MediumItalic.otf</string>
+	</array>
+</dict>
+</plist>
