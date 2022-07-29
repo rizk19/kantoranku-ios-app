@@ -16,7 +16,7 @@ class AttendanceCardViewModel: ObservableObject {
     
     @Published var isShowProgressView = false
     
-    let baseUrl = "http://localhost:3000/api/"
+    let baseUrl = "https://kantoranku-web-server.vercel.app/api/"
     
     @Published var attendanceState: AttendanceDataModel = AttendanceDataModel(_id: "", status: "checkedout", overtimeNotes: "", businessTrip: "", updateAt: "", createdAt: "", creatorId: "", companyId: "")
     

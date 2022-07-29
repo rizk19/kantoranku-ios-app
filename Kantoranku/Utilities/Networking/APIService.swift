@@ -9,13 +9,13 @@ import Foundation
 
 class APIService {
     static let shared = APIService()
-    let baseUrl = "http://localhost:3000/api/"
+    let baseUrl = "https://kantoranku-web-server.vercel.app/api/"
     
     func login(credentials: Credentials,
                completion: @escaping (Result<UserDataModel,Authentication.AuthenticationError>) -> Void) {
         // query sengaja untuk nembak create user dan masuk ke company nya juga langsung
 
-        guard let loginUrl = URL(string: baseUrl + "users?cid=62d9255d4751345980d47826&mobile=1") else {
+        guard let loginUrl = URL(string: baseUrl + "users?cid=62e32c088bea0ba04da9d9ef&mobile=1") else {
             return
         }
         
