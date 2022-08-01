@@ -60,7 +60,7 @@ class APIService {
     // do checkin
     func postAttend(passedData: AttendanceDataPost,
                     completion: @escaping (Result<AttendanceDataModel,AttendanceHandler.AttendanceFailed>) -> Void) {
-        guard let attendUrl = URL(string: baseUrl + "attendance") else {
+        guard let attendUrl = URL(string: baseUrl + "attendance/today") else {
             return
         }
         
@@ -95,7 +95,7 @@ class APIService {
     
     func putAttend(passedData: AttendanceDataPut,
                     completion: @escaping (Result<AttendanceDataModel,AttendanceHandler.AttendanceFailed>) -> Void) {
-        guard let attendUrl = URL(string: baseUrl + "attendance") else {
+        guard let attendUrl = URL(string: baseUrl + "attendance/today") else {
             return
         }
         

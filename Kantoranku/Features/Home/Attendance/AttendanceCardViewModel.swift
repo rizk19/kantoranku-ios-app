@@ -77,7 +77,7 @@ class AttendanceCardViewModel: ObservableObject {
     }
  
     func getAttend() async throws -> AttendanceDataModel {
-        guard let url = URL(string: baseUrl + "attendance") else {
+        guard let url = URL(string: baseUrl + "attendance/today") else {
             return AttendanceDataModel(_id: "", status: "", overtimeNotes: "", businessTrip: "", updateAt: "", createdAt: "", creatorId: "", companyId: "")
         }
         return try await APIFetchMethodGet.fetchObj(from: url)
